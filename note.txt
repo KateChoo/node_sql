@@ -1,0 +1,9 @@
+npm init
+npm install mysql
+npm install --save mysql express
+npm install -g nodemon
+
+ALTER USER 'k'@'localhost' IDENTIFIED WITH mysql_native_password BY 'kpython'
+flush privileges;
+
+ejs handlebar
